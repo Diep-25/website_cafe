@@ -1,0 +1,56 @@
+<?php
+    if(isset($_GET['ql'])){
+        $tam = $_GET['ql'];
+    }else{
+        $tam = '';
+    }
+    if($tam=='blog'){
+        include("main/blog.php");
+    }elseif($tam=='giohang'){
+        include("main/giohang.php");
+    }elseif($tam=='dangky'){
+        include("main/dangky.php");
+    }elseif($tam=='dangnhap'){
+        include("main/dangnhap.php");
+    }elseif($tam=='sanpham'){
+        include("main/sanpham.php");	
+    }elseif($tam=='lienhe'){
+        include("main/lienhe.php");
+    }elseif($tam=='timhieuthem'){
+        include("main/timhieuthem.php");
+    }elseif($tam=='timkiem'){
+        include("main/timkiem.php");
+    }elseif($tam=='doimatkhau'){
+        include("main/thaydoimatkhau.php");
+    }elseif($tam=='binhluan'){
+        include("main/binhluan.php");  
+    }elseif($tam=='blog_noidung'){
+        include("main/blog_noidung.php"); 
+    }elseif($tam=='dat_ban'){
+        include("main/datban.php"); 
+    }elseif($tam=='cam_on'){
+        include("main/camon.php"); 
+    }elseif($tam=='taikhoan'){
+        include("main/taikhoan.php");                 
+    }elseif($tam=='quenmatkhau'){
+        include("main/quenpass.php");                 
+    }elseif($tam=='new_pass'){
+        include("main/new_pass.php");    
+    }elseif($tam=='check'){
+        include("main/check_otp.php"); 
+    }elseif($tam=='thanhtoan'){
+        include("main/thanhtoan.php");     
+    }elseif($tam=='new_pass_login'){
+        include("main/new_pass_login.php");                 
+    }elseif($tam=='check_resert'){
+        include("main/check_otp_resert.php");                 
+    }elseif($tam=='allmenu'){
+        include("main/allmenu.php");  
+    }elseif($tam=='donhang_user'){
+        include("main/donhang_user.php");                 
+    }
+    else{
+        include("main/index.php");
+    }
+?>
+

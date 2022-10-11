@@ -1,0 +1,399 @@
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        outline: none;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    ul{
+        list-style: none;
+    }
+    header{
+        height: 100px;
+        width: 100vw;
+        border-bottom: 2px solid #ddd;
+        text-align: center;
+        background-image: linear-gradient(90deg, rgb(0, 47, 255), rgb(230, 18, 219));
+    }
+    header h1{
+        font-size: 80px;
+        color: #EA8025;
+    }
+    section{
+        background:  #00001a;
+    }
+    .admin-content{
+        display: flex;
+    }
+    .admin-content-left{
+        background-color: #dddddd;
+        width: 20%;
+        height: 100vh;
+        padding: 30px 0 0 20px;
+    }
+    .admin-content-left > ul >li{
+        font-weight: bold;
+        color: rgb(230, 18, 219);
+    }
+    .admin-content-left > ul >li a{
+        color: #00001a;
+    }
+    .admin-content-left > ul >li a:hover{
+        color: #EA8025;
+    }
+    .admin-content-left ul li{
+        margin: 6px 0;
+    }
+    .admin-content-left ul ul{
+        margin-left: 20px;
+    }
+    
+    .admin_chinh h1{
+        margin-top: 50px;
+        text-align: center;
+        color: #EA8025;
+    }
+    
+    .admin-content-right{
+        width: 80%;
+        padding: 12px;
+        margin-bottom: 50px;
+    }
+    .admin-content-right h2{
+        color: white;
+        width: 800px;
+        margin: auto;
+    }
+    .admin-content-right-menu-add input{
+        height: 30px;
+        width: 300px;
+        padding-left: 12px;
+        margin-top: 20px;
+    }
+    .admin-content-right-menu-add h1{
+        color: #EA8025;
+    }
+    .admin-content-right-menu-add button{
+        display: block;
+        margin-top: 10px;
+        height: 30px;
+        width: 90px;
+        cursor: pointer;
+        background: #EA8025;
+        border: none;
+        font-weight: bold;
+        color:white;
+        transition: all 0.5s;
+    }
+    .admin-content-right-menu-add button:hover{
+        background-color: transparent;
+        border: 1px solid #EA8025;
+        color: #EA8025;
+    }
+    
+    /* menu-list */
+    
+    .admin-content-right-menu-list h1{
+        color: #EA8025;
+    }
+    
+    .admin-content-right-menu-list table{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .admin-content-right-menu-list table tr th,td{
+        border: 1px solid #dddddd;
+        color: #EA8025;
+    }
+    .admin-content-right-menu-list table a{
+        color: #EA8025;
+    
+    
+    }
+    .admin-content-right-menu-list table a:hover{
+        color: red;
+        
+    
+    }
+    .admin-content-right-menu-list table tr td{
+        padding: 10px 0;
+    }
+    .admin-content-right-menu-list table tr td p{
+        
+        word-break: break-word;
+    }
+    
+    .admin-content-right-menu-list table a:first-child{
+        padding-right: 10px;
+        border-right: 1px solid rgb(230, 18, 219);
+    }
+    .admin-content-right-menu-list table a:last-child{
+        padding-left: 5px;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    /* ------------------anh-login-------------------- */
+    .anhlogin{
+        display:flex;
+    }
+    .anhlogin img{
+        border: 1px solid #ddd;
+        border-radius: 50%;
+    }
+    .anhlogin a{
+        margin-top: 10px;
+        margin-left: 10px;
+        color: red;
+    }
+    .anhlogin a:hover{
+        color: #EA8025;
+    }
+    /* ------------------------thuc----------don-------------- */
+    
+    .admin-content-right-thucdon-add{
+        margin-left: 20px;
+    }
+    .admin-content-right-thucdon-add h1{
+        color: #EA8025;
+    }
+    .admin-content-right-thucdon-add table{
+        margin-top: 20px;
+        border: none;
+        width: 100%;
+    }
+    .admin-content-right-thucdon-add table td,th{
+        border: none;
+        color: #EA8025;
+    }
+    .admin-content-right-thucdon-add table th{
+        border: none;
+        padding: 20px 0;
+       
+    }
+    .admin-content-right-thucdon-add input{
+        width: 300px;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .admin-content-right-thucdon-add textarea{
+        height: 200px;
+        width: 300px;
+    }
+    .admin-content-right-thucdon-add button{
+        display: block;
+        margin-top: 30px;
+        height: 30px;
+        width: 90px;
+        cursor: pointer;
+        background: #EA8025;
+        border: none;
+        font-weight: bold;
+        color:white;
+        transition: all 0.5s;
+    }
+    .admin-content-right-thucdon-add button:hover{
+        background-color: transparent;
+        border: 1px solid #EA8025;
+        color: #EA8025;
+    }
+    .admin-content-right-thucdon-add select{
+        width: 200px;
+        height: 30px;
+    }
+    /* --------------------thuc don ---list-------- */
+    .admin-content-right-thucdon-list{
+        margin-left: 20px;
+    }
+    .admin-content-right-thucdon-list h1{
+        color: #EA8025;
+        margin-bottom: 20px;
+    }
+    .admin-content-right-thucdon-list table{
+        width: 100%;
+    }
+    .admin-content-right-thucdon-list > table,th,td{
+        border: 1px solid white;
+    }
+    .admin-content-right-thucdon-list table td{
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .admin-content-right-thucdon-list table a{
+        color: #EA8025;
+    
+    
+    }
+    .admin-content-right-thucdon-list table a:hover{
+        color: red;
+        
+    
+    }
+    .admin-content-right-thucdon-list table tr td{
+        padding: 10px 0;
+    }
+    .admin-content-right-thucdon-list table tr td p{
+        
+        word-break: break-word;
+    }
+    .admin-content-right-thucdon-list table a:first-child{
+        padding-right: 10px;
+        border-right: 1px solid rgb(230, 18, 219);
+    }
+    .admin-content-right-thucdon-list table a:last-child{
+        padding-left: 5px;
+    }
+    /* ------------------------blog--------------- */
+    
+    
+    
+    .admin-content-right-blog-add{
+        margin-left: 20px;
+    }
+    .admin-content-right-blog-add h1{
+        color: #EA8025;
+    }
+    .admin-content-right-blog-add table{
+        margin-top: 20px;
+        border: none;
+        width: 100%;
+    }
+    .admin-content-right-blog-add table td,th{
+        border: none;
+        color: #EA8025;
+    }
+    .admin-content-right-blog-add table th{
+        border: none;
+        padding: 20px 0;
+       
+    }
+    .admin-content-right-blog-add input{
+        width: 300px;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .admin-content-right-blog-add textarea{
+        height: 200px;
+        width: 300px;
+    }
+    .admin-content-right-blog-add button{
+        display: block;
+        margin-top: 30px;
+        height: 30px;
+        width: 90px;
+        cursor: pointer;
+        background: #EA8025;
+        border: none;
+        font-weight: bold;
+        color:white;
+        transition: all 0.5s;
+    }
+    .admin-content-right-blog-add button:hover{
+        background-color: transparent;
+        border: 1px solid #EA8025;
+        color: #EA8025;
+    }
+    .admin-content-right-blog-add select{
+        width: 200px;
+        height: 30px;
+    }
+    /* --------------------blog ---list-------- */
+    .admin-content-right-blog-list{
+        margin-left: 20px;
+    }
+    .admin-content-right-blog-list h1{
+        color: #EA8025;
+        margin-bottom: 20px;
+    }
+    .admin-content-right-blog-list table{
+        width: 100%;
+    }
+    .admin-content-right-blog-list > table,th,td{
+        border: 1px solid white;
+    }
+    .admin-content-right-blog-list table td{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .admin-content-right-blog-list table a{
+        color: #EA8025;
+    
+    
+    }
+    .admin-content-right-blog-list table a:hover{
+        color: red;
+        
+    
+    }
+    .admin-content-right-blog-list table tr td{
+        padding: 10px 0;
+    }
+    .admin-content-right-blog-list table tr td p{
+        
+        word-break: break-word;
+    }
+    .admin-content-right-blog-list table a:first-child{
+        padding-right: 10px;
+        border-right: 1px solid rgb(230, 18, 219);
+    }
+    .admin-content-right-blog-list table a:last-child{
+        padding-left: 5px;
+    }
+    
+    
+    /* -----------------------don -----------hang---------- */
+    .admin-content-right-giohang-list{
+        margin-left: 20px;
+    }
+    .admin-content-right-giohang-list h1{
+        color: #EA8025;
+        margin-bottom: 20px;
+    }
+    .admin-content-right-giohang-list table{
+        width: 100%;
+    }
+    .admin-content-right-giohang-list > table,th,td{
+        border: 1px solid white;
+    }
+    .admin-content-right-giohang-list table td{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .admin-content-right-giohang-list table a{
+        color: #EA8025;
+    
+    
+    }
+    .admin-content-right-giohang-list table a:hover{
+        color: red;
+        
+    
+    }
+    .admin-content-right-giohang-list table tr td{
+        padding: 10px 0;
+    }
+    .admin-content-right-giohang-list table tr td p{
+        
+        word-break: break-word;
+    }
+    .admin-content-right-giohang-list table a:first-child{
+        padding-right: 10px;
+       
+    }
+    .mobile_admin{
+        display: none;
+    }
+
+
+
+
+
+

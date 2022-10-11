@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_list_menu table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.main_list_menu table{
+    width: 100%;
+}
+.main_list_menu table td{
+    text-align: center;
+    padding: 5px;
+}
+.main_list_menu table tr td > button{
+    border: none;
+    background: none;
+}
+.main_list_menu table tr td a:hover{
+    color: #161411;
+}
+.bx-message-square-edit{
+    font-size: 30px;
+    color:#f77d05;
+    transition: all 0.2s;
+}
+.bx-message-square-x{
+    font-size: 30px;
+    color: red;
+    transition: all 0.2s;
+}
+.bx-message-square-detail{
+    font-size: 30px;
+    color: #11f705;
+    transition: all 0.2s;
+}
+.bx-message-square-edit:hover{
+    color: #161411;
+}
+.bx-message-square-x:hover{
+    color: black;
+}
+.bx-message-square-detail:hover{
+    color: black;
+}
+.main_list_add{
+    display: flex;
+    justify-content: space-between;
+}
+.main_list_add_list button{
+    color: #3d5af1;
+    border: none;
+    background: none;
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.main_list_add_list button:hover{
+    color: black;
+}
+/* --------------------------- adddd menu ---------------- */
+.main_add{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(40, 62, 110, 0.0);
+    overflow: auto;
+    display: none;
+}
+.main_add_list{
+    width: 600px;
+   margin-left: 10%;
+   margin-top: 30px;
+   background: #3d5af1;
+    position: relative;
+
+}
+.main_add_list_delete{
+    width: 400px;
+    margin-left: 20%;
+    margin-top: 30px;
+    padding: 20px 10px;
+    background: #3d5af1;
+     position: relative;
+}
+.main_add_list_delete > p{
+    color: white;
+}
+.main_add_list form{
+   padding: 50px 0;
+   margin: 0 20px;
+   padding-bottom: 100px;
+}
+.main_add_list p{
+    text-align: center;
+}
+.main_add_list input{
+    width: 85%;
+    margin: 15px 20px;
+    height: 30px;
+    padding: 0 10px;
+    font-family: inherit;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+}
+.main_add_list select{
+    width: 85%;
+    margin: 15px 20px;
+    height: 30px;
+    padding: 0 10px;
+    font-family: inherit;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+}
+.main_add_list  button{
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    padding: 5px 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    color: #3d5af1;
+    border-radius: 20px;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+.main_add_list  button:hover{
+    color: white;
+    background: #3d5af1;
+}
+.main_add_icon{
+   position: absolute;
+   top: -9px;
+   right: -3px;
+   font-size: 40px;
+   color: white;
+   cursor: pointer;
+    transition: all 0.2s;
+}
+
+.main_add_icon:hover{
+    color: black;
+}
+.main_updata_icon{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+     transition: all 0.2s;
+ }
+ 
+ .main_updata_icon:hover{
+     color: black;
+ }
+.main_add_list-cllick{
+     position: absolute;
+     right: 40px;
+     bottom: 10px;
+}
+.main_add_list-cllick > button{
+    border: none;
+    background: none;
+}
+.main_add_list-cllick > button .bx-x-circle{
+    color: red;
+    font-size: 35px;
+    transition: all .3s;
+}
+.main_add_list-cllick > button .bx-x-circle:hover{
+    color: black;
+}
+.main_add_list-cllick > button .bx-check-square{
+    color: #11f705;
+    font-size: 35px;
+    transition: all .3s;
+}
+.main_add_list-cllick > button .bx-check-square:hover{
+    color: black;
+}
+/* -----------------------------addddddd san pham----------------- */
+.main_add_sanpham{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.main_add_sanpham input{
+    width: 50%;
+    margin: 15px 20px;
+    height: 30px;
+    padding: 0 10px;
+    font-family: inherit;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+
+}
+.main_add_sanpham textarea{
+    font-size: 18px;
+}
+.main_add_sanpham select{
+    width: 35%;
+    margin: 15px 20px;
+    height: 30px;
+    padding: 0 10px;
+    font-family: inherit;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+}
+.main_add_sanpham button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    border: 1px solid #3d5af1;
+    color: #3d5af1;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.main_add_sanpham button:hover{
+    color: white;
+    background: #3d5af1;
+
+}
+/* --------------------------chi tiết ------------------- */
+.main_chitiet{
+    background: #3d5af1;
+    width: 76%;
+   padding: 30px;
+   position: relative;
+}
+.main_chitiet_text{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+/* --------------------------thong tin--------- */
+.main_thongtin{
+    margin-top: 20px;
+}
+.main_thongtin h2{
+    margin-bottom: 20px;
+}
+.main_thongtin button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    border: 1px solid #3d5af1;
+    color: #3d5af1;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.main_thongtin button:hover{
+    color: white;
+    background: #3d5af1;
+
+}
+/* -------------------------------------------indexxxxxxxxx */
+.main_index_admin{
+    margin-top: 30px;
+}
+.main_index_admin_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_index_admin_wrap_main{
+    display: flex;
+    background: #3d5af1;
+    padding: 15px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.main_index_admin_wrap_main-icon{
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+}
+.main_index_admin_wrap_main_text{
+    margin: 0 10px;
+    margin-top: 10px;
+}
+.main_index_admin_wrap_main_text-number{
+    color: white;
+}
